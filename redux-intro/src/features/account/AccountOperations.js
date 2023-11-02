@@ -13,7 +13,6 @@ function AccountOperations() {
   const {
     loan: currentLoan,
     loanPurpose: currentLoanPurpose,
-    balance,
     isLoading,
   } = useSelector((state) => state.account);
 
